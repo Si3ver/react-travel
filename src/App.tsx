@@ -5,6 +5,7 @@ import {
   SideMenu,
   Carousel,
   ProductCollection,
+  BusinessPartners,
 } from "./components";
 
 import { productList1, productList2, productList3 } from "./mock";
@@ -53,6 +54,7 @@ function App() {
           sideImage={sideImage3}
           products={productList3}
         />
+        <BusinessPartners />
       </div>
       <Footer />
     </div>
