@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -13,14 +9,14 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "esnext", // 代码模块系统
+    "moduleResolution": "node", // 编译器工作方式，node/classic(已废弃)
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "noEmit": true, // 编译错误时，不生成 JS 代码
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
