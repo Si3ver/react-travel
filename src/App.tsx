@@ -1,5 +1,5 @@
 import { Col, Row } from "antd";
-import { Header, Footer, SideMenu } from "./components";
+import { Header, Footer, SideMenu, Carousel } from "./components";
 import styles from "./App.module.css";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
             <SideMenu />
           </Col>
           <Col span={18}>
-            <div style={{ background: "blue" }}>走马灯</div>
+            <Carousel />
           </Col>
         </Row>
       </div>
