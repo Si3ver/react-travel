@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.50ac516f.chunk.css",
-    "main.js": "./static/js/main.29a9a1a6.chunk.js",
-    "main.js.map": "./static/js/main.29a9a1a6.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.8a3686d1.js",
-    "runtime-main.js.map": "./static/js/runtime-main.8a3686d1.js.map",
+    "main.css": "./static/css/main.3f37c363.chunk.css",
+    "main.js": "./static/js/main.d95e860c.chunk.js",
+    "main.js.map": "./static/js/main.d95e860c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3a7b312d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3a7b312d.js.map",
     "static/css/2.8c5372c1.chunk.css": "./static/css/2.8c5372c1.chunk.css",
-    "static/js/2.a281773d.chunk.js": "./static/js/2.a281773d.chunk.js",
-    "static/js/2.a281773d.chunk.js.map": "./static/js/2.a281773d.chunk.js.map",
-    "static/js/3.f8ba8d32.chunk.js": "./static/js/3.f8ba8d32.chunk.js",
-    "static/js/3.f8ba8d32.chunk.js.map": "./static/js/3.f8ba8d32.chunk.js.map",
+    "static/js/2.b8cb6fa9.chunk.js": "./static/js/2.b8cb6fa9.chunk.js",
+    "static/js/2.b8cb6fa9.chunk.js.map": "./static/js/2.b8cb6fa9.chunk.js.map",
+    "static/js/3.5028fc37.chunk.js": "./static/js/3.5028fc37.chunk.js",
+    "static/js/3.5028fc37.chunk.js.map": "./static/js/3.5028fc37.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.8c5372c1.chunk.css.map": "./static/css/2.8c5372c1.chunk.css.map",
-    "static/css/main.50ac516f.chunk.css.map": "./static/css/main.50ac516f.chunk.css.map",
-    "static/js/2.a281773d.chunk.js.LICENSE.txt": "./static/js/2.a281773d.chunk.js.LICENSE.txt",
+    "static/css/main.3f37c363.chunk.css.map": "./static/css/main.3f37c363.chunk.css.map",
+    "static/js/2.b8cb6fa9.chunk.js.LICENSE.txt": "./static/js/2.b8cb6fa9.chunk.js.LICENSE.txt",
     "static/media/carousel_1.8a3dd591.jpg": "./static/media/carousel_1.8a3dd591.jpg",
     "static/media/carousel_2.b79314aa.jpg": "./static/media/carousel_2.b79314aa.jpg",
     "static/media/carousel_3.39c09c71.jpg": "./static/media/carousel_3.39c09c71.jpg",
@@ -27,10 +27,10 @@
     "static/media/sider_2019_12-09.d016ce66.png": "./static/media/sider_2019_12-09.d016ce66.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a3686d1.js",
+    "static/js/runtime-main.3a7b312d.js",
     "static/css/2.8c5372c1.chunk.css",
-    "static/js/2.a281773d.chunk.js",
-    "static/css/main.50ac516f.chunk.css",
-    "static/js/main.29a9a1a6.chunk.js"
+    "static/js/2.b8cb6fa9.chunk.js",
+    "static/css/main.3f37c363.chunk.css",
+    "static/js/main.d95e860c.chunk.js"
   ]
 }
