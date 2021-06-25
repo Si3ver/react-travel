@@ -33,10 +33,11 @@ export const Header: React.FC = () => {
           </Dropdown.Button>
           <Button.Group className={styles["button-group"]}>
             <Button onClick={() => {history.push('register')}}>注册</Button>
-            <Button onClick={() => {history.push('signIn')}}>登陆</Button>
+            <Button onClick={() => {history.push('signIn')}}>登录</Button>
           </Button.Group>
         </div>
       </div>
+      {/* main-header */}
       <Layout.Header className={styles["main-header"]}>
         <span onClick={() => {history.push('/')}}>
           <img src={logo} alt="logo" className={styles["App-logo"]} />
@@ -49,6 +50,7 @@ export const Header: React.FC = () => {
           className={styles["search-input"]}
         />
       </Layout.Header>
+      {/* top-menu */}
       <Menu mode={"horizontal"} className={styles["main-menu"]}>
         <Menu.Item key={1}>旅游首页</Menu.Item>
         <Menu.Item key={2}>周末游</Menu.Item>
