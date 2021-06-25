@@ -12,7 +12,23 @@ const defaultState: LanguageState = {
 }
 
 const LanguageReducer = (state = defaultState, action) => {
-  return state
+  switch (action.type) {
+    case 'change_language':
+      return {
+        ...state,
+        language: action.payload
+      }
+    case 'add_language':
+      return {
+        ...state,
+        languageList: [
+          ...state.languageList,
+          action.payload
+        ]
+      }
+    default:
+      return state
+  }
 }
 
 export default LanguageReducer
