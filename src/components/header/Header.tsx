@@ -1,3 +1,7 @@
+/**
+ * 头部区域
+ */
+
 import React from "react";
 import { Layout, Typography, Input, Menu, Button, Dropdown } from "antd";
 import { GlobalOutlined } from "@ant-design/icons";

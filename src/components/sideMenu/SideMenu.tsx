@@ -1,3 +1,7 @@
+/**
+ * 产品类型选择框
+ */
+
 import React from "react";
 import { Menu } from "antd";
 import { GifOutlined } from "@ant-design/icons";
@@ -20,7 +24,7 @@ export const SideMenu: React.FC = () => {
         >
           {m.subMenu.map((sm, smindex) => (
             <Menu.SubMenu
-              key={`sub-menu-${smindex}`}
+              key={`sub-menu-${index}-${smindex}`}
               title={
                 <span>
                   <GifOutlined />
@@ -29,7 +33,7 @@ export const SideMenu: React.FC = () => {
               }
             >
               {sm.subMenu.map((sms, smsindex) => (
-                <Menu.Item key={`sub-sub-menu-${smsindex}`}>
+                <Menu.Item key={`sub-sub-menu-${index}-${smindex}-${smsindex}`}>
                   <span>
                     <GifOutlined />
                     {sms}

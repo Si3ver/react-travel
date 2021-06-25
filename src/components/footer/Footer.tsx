@@ -1,3 +1,7 @@
+/**
+ * 页脚
+ */
+
 import React from "react";
 import { Layout, Typography } from "antd";
 

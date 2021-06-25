@@ -1,3 +1,7 @@
+/**
+ * 合作企业
+ */
+
 import React from "react";
 import { Row, Col, Typography, Divider } from "antd";
 
