@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.3f37c363.chunk.css",
-    "main.js": "./static/js/main.89165cc3.chunk.js",
-    "main.js.map": "./static/js/main.89165cc3.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.3a7b312d.js",
-    "runtime-main.js.map": "./static/js/runtime-main.3a7b312d.js.map",
+    "main.js": "./static/js/main.324bc4d0.chunk.js",
+    "main.js.map": "./static/js/main.324bc4d0.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8717b6ae.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8717b6ae.js.map",
     "static/css/2.8c5372c1.chunk.css": "./static/css/2.8c5372c1.chunk.css",
-    "static/js/2.57f615fe.chunk.js": "./static/js/2.57f615fe.chunk.js",
-    "static/js/2.57f615fe.chunk.js.map": "./static/js/2.57f615fe.chunk.js.map",
-    "static/js/3.5028fc37.chunk.js": "./static/js/3.5028fc37.chunk.js",
-    "static/js/3.5028fc37.chunk.js.map": "./static/js/3.5028fc37.chunk.js.map",
+    "static/js/2.b3b9924c.chunk.js": "./static/js/2.b3b9924c.chunk.js",
+    "static/js/2.b3b9924c.chunk.js.map": "./static/js/2.b3b9924c.chunk.js.map",
+    "static/js/3.a964d7e1.chunk.js": "./static/js/3.a964d7e1.chunk.js",
+    "static/js/3.a964d7e1.chunk.js.map": "./static/js/3.a964d7e1.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.8c5372c1.chunk.css.map": "./static/css/2.8c5372c1.chunk.css.map",
     "static/css/main.3f37c363.chunk.css.map": "./static/css/main.3f37c363.chunk.css.map",
-    "static/js/2.57f615fe.chunk.js.LICENSE.txt": "./static/js/2.57f615fe.chunk.js.LICENSE.txt",
+    "static/js/2.b3b9924c.chunk.js.LICENSE.txt": "./static/js/2.b3b9924c.chunk.js.LICENSE.txt",
     "static/media/carousel_1.8a3dd591.jpg": "./static/media/carousel_1.8a3dd591.jpg",
     "static/media/carousel_2.b79314aa.jpg": "./static/media/carousel_2.b79314aa.jpg",
     "static/media/carousel_3.39c09c71.jpg": "./static/media/carousel_3.39c09c71.jpg",
@@ -27,10 +27,10 @@
     "static/media/sider_2019_12-09.d016ce66.png": "./static/media/sider_2019_12-09.d016ce66.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3a7b312d.js",
+    "static/js/runtime-main.8717b6ae.js",
     "static/css/2.8c5372c1.chunk.css",
-    "static/js/2.57f615fe.chunk.js",
+    "static/js/2.b3b9924c.chunk.js",
     "static/css/main.3f37c363.chunk.css",
-    "static/js/main.89165cc3.chunk.js"
+    "static/js/main.324bc4d0.chunk.js"
   ]
 }
