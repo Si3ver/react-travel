@@ -25,6 +25,9 @@ class HeaderComponent extends React.Component<RouteComponentProps & WithTranslat
       language: storeState.language,
       languageList: storeState.languageList,
     }
+  }
+
+  componentDidMount() {
     store.subscribe(this.handleStoreChange)
   }
 
