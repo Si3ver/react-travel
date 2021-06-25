@@ -3,6 +3,7 @@
  */
 
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Image, Typography } from "antd";
 import { Link } from 'react-router-dom'
 
@@ -21,6 +22,7 @@ export const ProductImage: React.FC<PropsType> = ({
   price,
   title,
 }) => {
+  const { t } = useTranslation()
   return (
     <Link to={`detail/${id}`}>
       {size === "large" ? (
@@ -31,7 +33,7 @@ export const ProductImage: React.FC<PropsType> = ({
       <div>
         <Typography.Text type="secondary">{title.slice(0, 25)}</Typography.Text>
         <Typography.Text type="danger" strong>
-          ¥ {price} 起
+          ¥ {price} { t('home_page.start_from') }
         </Typography.Text>
       </div>
     </Link>

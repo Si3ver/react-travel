@@ -22,3 +22,8 @@
 
 - 下单购买 -> 在线支付页 pay
 - 订单历史记录 -> 订单历史页 order-history
+
+## 技术选型
+
+1. [ant-design](https://ant.design/index-cn) UI框架
+2. [react-i18next](https://react.i18next.com/) 国际化
