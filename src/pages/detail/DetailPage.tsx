@@ -6,6 +6,5 @@ interface MatchParams {
 }
 
 export const DetailPage: React.FC<RouteComponentProps<MatchParams>> = (props) => {
-  console.log(props.history, props.location, props.match)
   return <h1>路线详情页面，路线ID: {props.match.params.touristRouteId}</h1>
 }
