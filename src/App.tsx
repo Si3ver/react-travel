@@ -5,7 +5,7 @@ import styles from "./App.module.css";
 function App() {
   return (
     <div className={styles.App}>
-      <BrowserRouter>
+      <BrowserRouter basename="/react-travel">
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/signIn" component={SignInPage} />
